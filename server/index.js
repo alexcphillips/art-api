@@ -1,5 +1,10 @@
 const { app } = require("./app");
+const { mongoConnect } = require("./database");
 
-app.listen(3000, () => {
-  console.log("Server started SUCCESSFULLY");
-});
+(async () => {
+  await mongoConnect();
+
+  app.listen(3000, () => {
+    console.log("Server started SUCCESSFULLY");
+  });
+})();
