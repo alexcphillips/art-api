@@ -1,0 +1,19 @@
+{
+  "name": "art-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcphillips/art-api.git"
+  },
+  "author": "Alexander Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcphillips/art-api/issues"
+  },
+  "homepage": "https://github.com/alexcphillips/art-api#readme"
+}
